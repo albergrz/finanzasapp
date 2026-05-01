@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0d0d0d" rx="112"/>
+  <circle cx="256" cy="256" r="154" fill="none" stroke="#e2ac4d" stroke-width="16"/>
+  <circle cx="256" cy="256" r="124" fill="none" stroke="#f2ede8" stroke-opacity=".34" stroke-width="4"/>
+  <text x="256" y="218" fill="#f2ede8" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="7" text-anchor="middle">CLAB</text>
+  <text x="256" y="281" fill="#f2ede8" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="7" text-anchor="middle">CLAB</text>
+  <text x="256" y="326" fill="#e2ac4d" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="9" text-anchor="middle">FINANZAS</text>
+</svg>
