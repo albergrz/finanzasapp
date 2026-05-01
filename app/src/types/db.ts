@@ -16,6 +16,13 @@ export type Barber = {
   active: boolean;
   display_order: number;
   created_at: string;
+  // Consumidos por la web pública (webcoliseum) vía /api/public-config.
+  // slot_key = identificador estable del slot de calendario (SLOT_1/2/3),
+  // se mantiene aunque el dueño renombre al barbero.
+  slot_key?: string | null;
+  role?: string | null;
+  bio?: string | null;
+  hue?: number | null;
 };
 
 export type Service = {
@@ -25,6 +32,9 @@ export type Service = {
   active: boolean;
   display_order: number;
   created_at: string;
+  // duration_minutes determina los huecos que bloquea Apps Script.
+  duration_minutes?: number | null;
+  description?: string | null;
 };
 
 export type Ticket = {
